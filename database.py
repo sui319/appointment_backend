@@ -17,6 +17,7 @@ def openConnection():
         print("Error connecting to MySQL database:", error)
         return connection
 
+# Close connection
 def closeConnection(connection):
     # Close connection
     if connection.is_connected():
